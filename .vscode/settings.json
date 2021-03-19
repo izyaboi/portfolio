@@ -1,6 +1,3 @@
 {
-    "githubPullRequests.remotes": [
-        "https://github.com/izyaboi/portfolio.git",
-        "upstream"
-    ]
+    "githubPullRequests.remotes": []
 }
