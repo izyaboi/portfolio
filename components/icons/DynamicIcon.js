@@ -1,14 +1,14 @@
 import React from 'react'
-import Mail from './Mail'
-import Phone from './Phone'
-import Twitter from './Twitter'
+import Kotlin from './Kotlin'
+import Android from './Android'
+import Java from './Java'
 
 const Components = {
-  'twitter': Twitter,
-  'mail': Mail,
-  'phone': Phone,
+  'java': Java,
+  'kotlin': Kotlin,
+  'android': Android,
 }
- 
+
 const DynamicIcon = ({ type }) => {
   if (typeof Components[type] !== 'undefined') {
     const Component = Components[type]
@@ -16,5 +16,5 @@ const DynamicIcon = ({ type }) => {
   }
   return null
 }
- 
+
 export default DynamicIcon

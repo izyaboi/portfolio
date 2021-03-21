@@ -1,4 +1,5 @@
 module.exports = {
+   darkMode: 'class',
   purge: ['./pages/**/*.tsx', './styles/**/*.css'],
   future: {
     removeDeprecatedGapUtilities: true,

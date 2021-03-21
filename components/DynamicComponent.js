@@ -1,11 +1,11 @@
-import Teaser from './Teaser'
+import Experience from './Experience'
 import Feature from './Feature'
 import FeaturedPosts from './FeaturedPosts'
 import Grid from './Grid'
 import Placeholder from './Placeholder'
 
 const Components = {
-  'teaser': Teaser,
+  'experience' : Experience,
   'grid': Grid,
   'feature': Feature,
   'featured-posts': FeaturedPosts
