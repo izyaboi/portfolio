@@ -6,7 +6,7 @@ export default function Card() {
     return (
         <div className="w-full">
             <div className="flex flex-col justify-center max-w-xs my-8 mx-auto bg-white shadow-xl rounded-xl p-5 dark:bg-gray-900">
-                <div className="">
+                <div >
                     <img className="w-32 mx-auto shadow-xl rounded-full" src={"https://pbs.twimg.com/profile_images/947642745719545856/S5WxePQv_400x400.jpg"} alt="Tristan Avatar" />
                 </div>
                 <div className="text-center mt-5">

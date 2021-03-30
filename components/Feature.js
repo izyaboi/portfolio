@@ -5,8 +5,8 @@ import DynamicIcon from './icons/DynamicIcon'
 
 const Feature = ({blok}) => {
   return (
-    <SbEditable content={blok} key={blok._uid}>
-      <div className="py-16 max-w-sm p-2 sm:p-10 text-center flex flex-col items-center">
+    <SbEditable content={blok} key={blok._uid} >
+      <div className="container mx-auto py-16 max-w-sm p-2 sm:p-10 text-center flex flex-col items-center">
             <DynamicIcon type={blok.icon} />
             <div className="px-6 py-4">
                 <div className="font-bold text-xl my-4 g-gray-100 body-font dark:text-white dark:bg-gray-800">{blok.name}</div>
