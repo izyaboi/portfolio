@@ -11,6 +11,10 @@ module.exports = {
         'serif': 'Merriweather, Georgia, serif'
       },
       extend: {
+        colors: {
+          'spotify-green': '#1DB954',
+          'twitter-blue' : '#1DA1F2',
+        },
       },
     },
     variants: {},

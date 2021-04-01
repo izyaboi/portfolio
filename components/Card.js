@@ -1,6 +1,8 @@
 import { FaTwitter} from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaRegPaperPlane } from 'react-icons/fa'
+import { FaSpotify } from 'react-icons/fa'
+import { FaGoodreadsG } from 'react-icons/fa'
 
 export default function Card() {
     return (
@@ -21,13 +23,21 @@ export default function Card() {
                             <FaGithub />
                             <span className="sr-only">Github</span>
                         </a>
-                        <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-purple-500 hover:bg-purple-500 rounded-full hover:text-white transition-colors duration-300" href="https://twitter.com/izyaboitristan">
+                        <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-twitter-blue hover:bg-twitter-blue rounded-full hover:text-white transition-colors duration-300" href="https://twitter.com/izyaboitristan">
                             <FaTwitter/>
                             <span className="sr-only">Twitter</span>
                         </a>
                         <a className="text-xl mt-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300" href="mailto:t.hubel@gmail.com">
                             <FaRegPaperPlane />
                             <span className="sr-only">Email</span>
+                        </a>
+                        <a className="text-xl mt-1 p-1 sm:m-2 sm:p-2 text-spotify-green hover:bg-spotify-green rounded-full hover:text-white transition-colors duration-300" href="https://open.spotify.com/playlist/7BXqnVNSm52IV0dayuoB3k?si=4862812e3a1943c4">
+                            <FaSpotify />
+                            <span className="sr-only">Spotify</span>
+                        </a>
+                        <a className="text-xl mt-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300 dark:text-gray-200 dark:hover:bg-gray-500" href="https://www.goodreads.com/user/show/127464944-tristan-slow-jam">
+                            <FaGoodreadsG />
+                            <span className="sr-only">Goodreads</span>
                         </a>
                     </div>
                 </div>
